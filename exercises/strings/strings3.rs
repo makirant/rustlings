@@ -5,12 +5,15 @@
 
 fn trim_me(input: &str) -> String {
     // TODO: Remove whitespace from both ends of a string!
-    ???
+    let mut string = input;
+    string.replace(" ", "")
+
 }
 
 fn compose_me(input: &str) -> String {
     // TODO: Add " world!" to the string! There's multiple ways to do this!
-    ???
+    let mut string = input;
+    string.push_str(" world!")
 }
 
 fn replace_me(input: &str) -> String {
